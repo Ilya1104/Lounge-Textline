@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lounge Textline</title>
+    <link rel="stylesheet" href="_source\SCSS\style.css">
+</head>
+<body>
+  <div class="desktop">
+      <div class="desktop__mainHeader">
+            <div class="dektop__header">            
+                <nav class="sign">
+                  <a href="" class="signIn">Вход</a> 
+                  |
+                  <a href="" class="signUp">Регистрация</a>
+                </nav>        
+            </div>    
+            <div class="dektop__content">    
+                <div class="desktop__contentRow">       
+                    <div class="dektop__content_number1">
+                        <p><span class="green_text">Lounge Textline</span></p>
+                        <p>бельё для кровати</p>
+                    </div>   
+                    <div class="dektop__content_number2">
+                      <p>+123456789</p>
+                      <p>работаем <span class="green_text">с 9:00 до 21:00</span></p>                    
+                    </div> 
+                    <div class="dektop__content_number3">
+                      <p>+123456789</p>
+                      <p>email: <a href="" class="green_text">test@example.com</a></p>
+                    </div> 
+                    <div class="dektop__content_basket">
+                      <p><img src="img\header\pacage.png" alt=""> В вашей корзине товаров </p>
+                      <p> на сумму</p>
+                    </div> 
+                </div> 
+          </div>  
+          <div class="dektop__bottomMenu">            
+            <div class="menuButtons">
+                <a href="" class="dektop__bottomMenu_1">О компании</a> 
+                  |
+              <a href="" class="dektop__bottomMenu_2">Услуги</a>
+              |
+              <a href="" class="dektop__bottomMenu_3">Оплата и доставка</a>
+              |
+              <a href="" class="dektop__bottomMenu_3">Контакты</a>
+            </div>
+            <div class="search">          
+                   <input type="text" name="searchText" placeholder="Например, ортопедические подушки">
+            </div>       
+        </div>      
+      </div>  
+      <div class="central_content">
+        <div class="main">
+          <div class="central_content_catalog">               
+                <ul class="list-catalog">                    
+                      <h2><span>КАТАЛОГ</span></h2>
+                      <li><a href="#">Распродажа</a></li>                     
+                          <button class="bed-linen">
+                            <p>Постельное бельё</p>
+                          </button>
+                          <div class="dropdown-catalog">                            
+                              <ul>
+                                  <li><a href="#">Комплекты постельного белья</a></li>
+                                  <li><a href="#">1 спальные</a></li>
+                                  <li><a href="#">1.5 спальные</a></li>
+                                  <li><a href="#">2 спальные</a></li>
+                                  <li><a href="#">Семейные</a></li>
+                                  <li><a href="#">Евростандарт</a></li>
+                                  <li><a href="#">Наволочки</a></li>
+                                  <li><a href="#">Простыни</a></li>
+                                  <li><a href="#">Пододеяльники</a></li>
+                                  <li><a href="#">Наматрасники</a></li>
+                              </ul>
+                          </div>
+                              <ul class="not_hidden">
+                              <li><a href="#">Подушки</a></li>       
+                              <li><a href="#">Подушки ортопедические</a></li>  
+                              <li><a href="#">Одеяла</a></li>     
+                              <li><a href="#">Матрацы</a></li>   
+                              <li><a href="#">Пледы</a></li> 
+                              <li><a href="#">Покрывала</a></li>           
+                              <li><a href="#">Бортики для кроватей</a></li>  
+                              <li><a href="#">Балдахины</a></li>  
+                              <li><a href="#">Шторы</a></li>  
+                              <li><a href="#">Тюль</a></li> 
+                             </ul>
+                        <button class="bed-linen">
+                         <p>Кухонные принадлежности</p> 
+                        </button>
+                        <div class="dropdown-catalog">
+                            <ul>
+                                <li><a href="#">Полотенца</a></li>
+                                <li><a href="#">Скатерти</a></li>
+                                <li><a href="#">Салфетки</a></li>                             
+                            </ul>
+                        </div>
+                          <ul class="not_hidden">
+                              <li><a href="#">Шторы</a></li>  
+                              <li><a href="#">Тюль</a></li> 
+                          </ul>  
+                        <button class="bed-linen">
+                         <p>Для бани и ванной</p> 
+                        </button>
+                        <div class="dropdown-catalog">
+                            <ul>
+                                <li><a href="#">Халаты</a></li>
+                                <li><a href="#">Полотенца</a></li>                         
+                            </ul>
+                        </div> 
+                </ul>
+                <script src="_source/js/dropdown_catalog.js"></script>
+            </div>
+            <div class="central_content_center">
+                    <div class="slider">
+                    <div class="slider__wrapper">
+                      <div class="slider__items">
+                        <div class="slider__item">
+                          <img src="img_2\svg\discount-slider.svg" alt="">
+                        </div>
+                        <div class="slider__item">
+                          <img src="img_2\svg\feb23-slider.svg" alt="">
+                        </div>
+                        <div class="slider__item">
+                          <img src="img_2\svg\march8-slider.svg" alt="">
+                        </div>
+                        <div class="slider__item">
+                          <img src="img_2\svg\sale-slider.svg" alt="">
+                        </div>
+                      </div>
+                    </div>
+                    <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+                    <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>               
+                    <script src="D:\HTML_CSS\2021\practic\practic\_source\js\slider.js"></script>
+                    <script src="D:\HTML_CSS\2021\practic\practic\_source\js\slider_2.js"></script>                
+                  </div>
+                  <div class="advantages">
+                    <div class="advantage">
+                      <img src="img_2\svg\billfold.svg" alt="">
+                      <p>Удобный<br>способ оплаты</p>
+                    </div>
+                    <div class="advantage">
+                      <img src="img_2\svg\certificate.svg" alt="">
+                      <p>Сертификация<br> на товары</p>
+                    </div>
+                    <div class="advantage">
+                      <img src="img_2\svg\choice.svg" alt="">
+                      <p>Большой<br>выбор</p>
+                    </div>
+                </div>  
+                <br>
+                <div class="about_company">
+                  <div class="about">
+                        О компании
+                  </div>
+                  <div class="company">
+                      <div class="company_text">
+                        В широком ассортименте представлены комплекты постельного белья из сатина, бязи, поплина. Шикарные
+                        коллекции кпб для детей и подростков. Также, не ходя далеко, можно купить и различные постельные
+                        принадлежности: покрывала, одеяла, подушки.
+                        От нас сложно уйти без покупки!
+                      </div>
+                      <div class="company_href">
+                        <a href="#">Подробнее →</a>
+                      </div>
+                  </div>
+              </div>  
+              <div class="products_table">
+                  <div class="product_row">
+                      <div class="product">
+                        <img src="img\center\sale.png" alt="">                                               
+                        <div class="name">
+                          <h4>РАСПРОДАЖА</h4>
+                        </div>
+                      </div>
+                      <div class="product">
+                        <img src="img\center\bed_linen.png" alt="">
+                        <div class="name">
+                          <h4>ПОСТЕЛЬНОЕ БЕЛЬЕ</h4>
+                        </div>
+                      </div>
+                      <div class="product">
+                        <img src="img\center\pillows.png" alt="">
+                        <div class="name">
+                          <h4>ПОДУШКИ</h4>
+                        </div>
+                      </div>
+                      <div class="product">
+                        <img src="img\center\blankets.png" alt="">
+                        <div class="name">
+                          <h4>ОДЕЯЛА</h4>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="product_row">
+                    <div class="product">
+                      <img src="img\center\plaids.png" alt="">
+                      <div class="name">
+                        <h4>ПЛЕДЫ</h4>
+                      </div>
+                    </div>
+                    <div class="product">
+                      <img src="img\center\bedspreads.png" alt="">
+                      <div class="name">
+                        <h4>ПОКРЫВАЛА</h4>
+                      </div>
+                    </div>
+                    <div class="product">
+                      <img src="img\center\canopies.png" alt="">
+                      <div class="name">
+                        <h4>БАЛДАХИНЫ</h4>
+                      </div>
+                    </div>
+                    <div class="product">
+                      <img src="img\center\curtains.png" alt="">
+                      <div class="name">
+                        <h4>ШТОРЫ</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product_row">
+                    <div class="product">
+                        <img src="img\center\tulle.png" alt="">
+                        <div class="name">
+                          <h4>ТЮЛЬ</h4>
+                        </div>
+                    </div>
+                    <div class="product">
+                      <img src="img\center\kitcgen_accessories.png" alt="">
+                      <div class="name">
+                        <h4>КУХОННЫЕ ПРИНАДЛЕЖНОСТИ</h4>
+                      </div>
+                    </div>
+                    <div class="product">
+                      <img src="img\center\for_bath.png" alt="">
+                      <div class="name">
+                        <h4>ДЛЯ БАНИ И ВАННОЙ</h4>
+                      </div>
+                    </div>
+                    <div class="product">
+                      <img src="img\center\mattresses.png" alt="">
+                      <div class="name">
+                        <h4>МАТРАСЫ</h4>
+                      </div>
+                    </div>
+                  </div>
+              </div>  
+              <ul class="nav" id="tabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="new-tab" data-bs-toggle="tab" data-bs-target="#new" type="button"
+                            role="tab" aria-controls="new" aria-selected="true">
+                        <span>НОВИНКИ</span>
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="popular-tab" data-bs-toggle="tab" data-bs-target="#popular" type="button"
+                            role="tab" aria-controls="popular" aria-selected="false">
+                        <span>ПОПУЛЯРНОЕ</span>
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="discounts-tab" data-bs-toggle="tab" data-bs-target="#discounts" type="button"
+                            role="tab" aria-controls="discounts" aria-selected="false">
+                        <span>СКИДКИ</span>
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="news-tab" data-bs-toggle="tab" data-bs-target="#news" type="button"
+                            role="tab" aria-controls="news" aria-selected="false">
+                        <span>НОВИНКИ</span>
+                    </button>
+                </li>
+        
+            </ul>
+            </div> 
+        </div>
+        <div class="central_pre_bottom">
+          <div class="products">
+              <div class="product">
+              <img src="img\pre_bottom\pink_saphier.png" alt="">
+              <div class="name">
+                <h4>Постельный комплект льняной «Розовый Сапфир»</h4>
+                <span class="green_text">10 775 руб.</span>
+              </div>
+          </div>
+          <div class="product">
+              <img src="img\pre_bottom\lux_elit_mix.png" alt="">
+              <div class="name">
+                <h4>Постельный комплект сатин «Lux Elit Mix»</h4>
+                <span class="green_text">11 440 руб.</span>
+              </div>
+          </div>
+          <div class="product">
+              <img src="img\pre_bottom\lux_elit_mix_240005.png" alt="">
+              <div class="name">
+                <h4>Постельный комплект сатин «Lux Elit Mix» 240+005</h4>
+                <span class="green_text">5400 руб.</span>
+              </div>
+          </div>
+          <div class="product">
+              <img src="img\pre_bottom\worm_head.png" alt="">
+              <div class="name">
+                <h4>Подушки бамбук «Тёплая голова»</h4>
+                <span class="green_text">14 000 руб.</span>
+              </div>
+          </div>
+          <div class="product">
+              <img src="img\pre_bottom\comfort.png" alt="">
+              <div class="name">
+                <h4>Ортопедический матрас «Комфорт»</h4>
+                <span class="green_text">30 000 руб.</span>
+              </div>
+          </div>
+          </div>
+          <div class="pre_line">
+            <img src="D:\HTML_CSS\2021\practic\practic\img\pre_bottom\line.png" alt="">
+          </div>
+          <div class="partners">
+            <div class="partner">
+              <img src="img\pre_bottom\zimbra.png" alt="">
+            </div>
+            <div class="partner">
+              <img src="img\pre_bottom\alpina.png" alt="">
+            </div>
+            <div class="partner">
+              <img src="img\pre_bottom\barclays.png" alt="">
+            </div>
+            <div class="partner">
+              <img src="img\pre_bottom\tinkoff.png" alt="">
+            </div>
+            <div class="partner">
+              <img src="img\pre_bottom\megaphone.png" alt="">
+            </div>
+          </div>
+        </div>             
+      </div>
+      <div class="bottom">
+        <div class="bottom_text">
+              <div class="bottom_item_1">
+            <div class="company">
+              <p><a href="#">О компании</a></p>
+              <p><a href="#">Услуги</a></p>
+              <p><a href="#">Оплата и доставка</a></p>
+              <p><a href="#">Контакты</a></p>
+            </div>      
+            <div class="line"></div>       
+            <div class="products">
+              <p><a href="#">Распродажа</a></p>
+              <p><a href="#">Постельное бельё</a></p>
+              <p><a href="#">Подушки</a></p>
+              <p><a href="#">Одеяла</a></p>
+            </div>
+          </div>        
+          <div class="bottom_item_2">
+            <div class="map">
+              <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A405ea7ffabf45e34dac3166e41eebdce7254a9ad13a2bb1a24de92930c61b058&amp;source=constructor" width="320" height="240" frameborder="0"></iframe>
+            </div>
+          </div>
+          <div class="useless_div"></div>                     
+          <div class="bottom_item_3">
+            <div class="contacts">
+                <div class="phones">
+                  <div class="phone">
+                    <p class="number">+1 234 457 89</p>
+                    <p>Работаем <span>с 9:00 до 21:00</span></p>
+                </div>
+                  <div class="phone">
+                    <p class="number">+1 234 457 89</p>
+                    <p>email: <span>test@example.com</span></p>
+                  </div>
+              </div>
+              <div class="search_row">
+                <input type="text" name="searchText" placeholder="Например, ортопедические подушки">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bottom_copyright">
+          <p><span>Карта сайта</span></p>
+          <p>Интернет-магазин постельного белья Example.com</p>
+          <p>© 2008-2017</p>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
